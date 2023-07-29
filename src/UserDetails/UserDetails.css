@@ -1,0 +1,41 @@
+.userDetail-container {
+    display: flex;
+    width: 100%;
+}
+
+.profile-header {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+    width: 70vw;
+
+}
+
+.user-avatar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-avatar:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    width: 20vw;
+    position: fixed;
+}
+
+.nav-container {
+    padding: 5px 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+}

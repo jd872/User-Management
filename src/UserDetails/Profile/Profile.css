@@ -1,0 +1,38 @@
+.profile-basic-details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-details {
+    display: flex;
+    flex: 4;
+}
+
+.profile-adress {
+    width: 100%;
+    flex: 6;
+}
+
+.profile-adress img {
+    margin-top: 20px;
+    width: 92%;
+    height: 55%;
+    border-radius: 20px;
+}
+
+.profile-adress-details {
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    margin-right: 75px;
+}
+
+.profile-basic-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-top: 50px;
+}

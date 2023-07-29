@@ -1,0 +1,59 @@
+.popup-card {
+    position: absolute;
+    top: 12%;
+    right: 50px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 4px;
+    z-index: 999;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.recommended-users {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.recommended-users li a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+.recommended-users img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.signout-btn {
+    width: 50%;
+    font-size: 20px;
+    padding: 8px 16px;
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

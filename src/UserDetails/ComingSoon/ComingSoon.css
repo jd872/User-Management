@@ -1,0 +1,9 @@
+.coming-soon{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    font-size: 100px;
+    opacity: 0.3;
+}
